@@ -1,0 +1,80 @@
+body {
+    padding-top: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.attendance-status {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+.status-present {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-absent {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-late {
+    background-color: #ffc107;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+/*Newly added styles */
+
+/* Login Form styling */
+    form {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #2e7d32;
+      color: white;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
